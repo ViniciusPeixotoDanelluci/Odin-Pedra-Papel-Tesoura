@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <script src="javascript.js"></script>
+        <script src="scripts.js"></script>
         <link rel="stylesheet" href="style.css">
         <title>Pedra, Papel e Tesoura!</title>
     </head>
@@ -14,11 +14,24 @@
                 Pedra Papel Tesoura
             </div>
         </header>
-        <div class="main-game">
-            <div class="info-text"></div>
-            <div class="hand-choose"></div>
-            <div class="scores"></div>
+        <main class="main-game">
+            <div class="info-text">Escolha sua mão! <br>O primeiro a atingir 5 pontos vence.</div>
+            <div class="hand-choose">
+                <!-- Criar aqui um justfied content: space-between 
+                aqui pra separar os próximos 2 divs em, aproximadamente, 15px.
+                Os scores respectivos a cada "player" devem ficar abaixo um do outro, sem margem. -->
+                <div class="hand" id="player-choice">Mãos</div>
+                <div class="score-player">Pontos: 0</div>
+                <div class="hand" id="computer-choice">Mãos</div>
+                <div class="score-computer">Pontos: 0</div>
+            </div>
             <div class="weapons"></div>
-        </div>
+        </main>
+        <footer>
+            Copyright © ViniciusPeixoto 
+            <script>
+                document.write(new Date().getFullYear())
+            </script>
+        </footer>
     </body>
 </html>

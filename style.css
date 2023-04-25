@@ -1,0 +1,45 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #234472;
+}
+
+.flex-container > div {
+    padding: 16;
+    margin: 5px;
+}
+
+header {
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -8px;
+    font-size: 24px;
+    background-color: #1F2937;
+}
+
+.hand {
+    width: 50px;
+    height: 50px;
+}
+
+.main-game {
+
+}
+
+.info-text {
+
+}
+
+.scores {
+
+}
+
+.weapons {
+
+}
